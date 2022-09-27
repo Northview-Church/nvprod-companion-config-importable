@@ -13,36 +13,39 @@ jobs:
         bash "${GITHUB_WORKSPACE}/build_files/campus_copies.sh"
 
 
-- name: Commit Files to Repo
-  uses: EndBug/add-and-commit@v9 # You can change this to use a specific version.
-  with:
-    add: '.'
-    author_name: Triston Yoder
-    author_email: triston.yoder@northviewchurch.us
-    
-    # The local path to the directory where your repository is located. You should use actions/checkout first to set it up.
-    # Default: '.'
-    cwd: '.'
+    - name: Commit Files to Repo
+      uses: EndBug/add-and-commit@v9 # You can change this to use a specific version.
+      with:
+        add: '.'
+        author_name: Triston Yoder
+        author_email: triston.yoder@northviewchurch.us
+        
+        # The local path to the directory where your repository is located. You should use actions/checkout first to set it up.
+        # Default: '.'
+        cwd: '.'
 
-    # Determines the way the action fills missing author name and email. Three options are available:
-    # - github_actor -> UserName <UserName@users.noreply.github.com>
-    # - user_info -> Your Display Name <your-actual@email.com>
-    # - github_actions -> github-actions <email associated with the github logo>
-    # Default: github_actor
-    default_author: github_actor
-    
-    
+        # Determines the way the action fills missing author name and email. Three options are available:
+        # - github_actor -> UserName <UserName@users.noreply.github.com>
+        # - user_info -> Your Display Name <your-actual@email.com>
+        # - github_actions -> github-actions <email associated with the github logo>
+        # Default: github_actor
+        default_author: github_actor
+        
+        
 
-    # Arguments for the git fetch command. If set to false, the action won't fetch the repo.
-    # For more info as to why fetching is usually recommended, please see the "Performance on large repos" FAQ. 
-    # Default: --tags --force
-    fetch: false
+        # Arguments for the git fetch command. If set to false, the action won't fetch the repo.
+        # For more info as to why fetching is usually recommended, please see the "Performance on large repos" FAQ. 
+        # Default: --tags --force
+        fetch: false
 
+        # The message for the commit.
+        # Default: 'Commit from GitHub Actions (name of the workflow)'
+        message: 'Updated Campus Config'
 
+        # Arguments for the git pull command. By default, the action does not pull.
+        # Default: ''
+        pull: ''
 
-
-
-    # The message for the commit.
-    # Default: 'Commit from GitHub Actions (name of the workflow)'
-    message: 'Updated Campus Config'
-
+        # Whether to push the commit and, if any, its tags to the repo. It can also be used to set the git push arguments (see the paragraph below for more info)
+        # Default: true
+        push: true
