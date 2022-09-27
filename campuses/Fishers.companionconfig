@@ -4156,20 +4156,20 @@
       "product": "Decoder",
       "label": "Resi",
       "import_to": "new",
-      "host": "10.4.11.10"
+      "host": "10.2.11.10"
     },
     "AuJGl4Ir6": {
       "instance_type": "barco-hdx",
       "product": "HDX, HDF Projector",
       "label": "Center Projector",
-      "host": "10.4.10.21",
+      "host": "10.2.10.21",
       "import_to": "new"
     },
     "-Zbq1wxUa": {
       "instance_type": "renewedvision-propresenter",
       "product": "ProPresenter",
       "label": "ProPresenter 7",
-      "host": "10.4.10.12",
+      "host": "10.2.10.12",
       "port": "49153",
       "use_sd": "yes",
       "sdport": "",
@@ -4193,7 +4193,7 @@
       "label": "Video Switcher",
       "enabled": true,
       "_configIdx": 0,
-      "host": "10.4.10.2",
+      "host": "10.2.10.2",
       "port": "7788",
       "import_to": "new"
     },
@@ -4204,7 +4204,7 @@
       "enabled": true,
       "_configIdx": 1,
       "rejectUnauthorized": false,
-      "prefix": "10.4.10.20",
+      "prefix": "10.2.10.20",
       "import_to": "new"
     },
     "yfK4tuoKpd": {
@@ -4214,7 +4214,7 @@
       "enabled": true,
       "_configIdx": 1,
       "rejectUnauthorized": false,
-      "prefix": "10.4.10.22",
+      "prefix": "10.2.10.22",
       "import_to": "new"
     }
   },
@@ -4922,7 +4922,7 @@
           "instance": "l5fQEbAoK",
           "action": "get",
           "options": {
-            "url": "http://10.4.10.20/tgi/remote.tgi?onky",
+            "url": "http://10.2.10.20/tgi/remote.tgi?onky",
             "header": "",
             "jsonResultDataVariable": ""
           },
@@ -4946,7 +4946,7 @@
           "instance": "yfK4tuoKpd",
           "action": "get",
           "options": {
-            "url": "http://10.4.10.22/tgi/remote.tgi?onky",
+            "url": "http://10.2.10.22/tgi/remote.tgi?onky",
             "header": "",
             "jsonResultDataVariable": ""
           },
@@ -5007,7 +5007,7 @@
           "instance": "l5fQEbAoK",
           "action": "get",
           "options": {
-            "url": "http://10.4.10.20/tgi/remote.tgi?offky",
+            "url": "http://10.2.10.20/tgi/remote.tgi?offky",
             "header": "",
             "jsonResultDataVariable": ""
           },
@@ -5031,7 +5031,7 @@
           "instance": "yfK4tuoKpd",
           "action": "get",
           "options": {
-            "url": "http://10.4.10.22/tgi/remote.tgi?offky",
+            "url": "http://10.2.10.22/tgi/remote.tgi?offky",
             "header": "",
             "jsonResultDataVariable": ""
           },
