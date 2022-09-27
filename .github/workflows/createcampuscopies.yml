@@ -17,49 +17,49 @@ jobs:
       with:
         find: "10.4."
         replace: "10.1."
-        include: "./campuses/Westfield.companionconfig"
+        include: "Westfield.companionconfig"
 
     - name: replace ip's for Fishers
       uses: nguyenvanuyn96/str-find-and-replace-action@master
       with:
         find: "10.4."
         replace: "10.2."
-        include: "./campuses/Fishers.companionconfig"
+        include: "Fishers.companionconfig"
 
     - name: replace ip's for Binford
       uses: nguyenvanuyn96/str-find-and-replace-action@master
       with:
         find: "10.4."
         replace: "10.3."
-        include: "./campuses/Binford.companionconfig"
+        include: "Binford.companionconfig"
 
     - name: replace ip's for Greater Lafayette
       uses: nguyenvanuyn96/str-find-and-replace-action@master
       with:
         find: "10.4."
         replace: "10.4."
-        include: "./campuses/GreaterLafayette.companionconfig"
+        include: "GreaterLafayette.companionconfig"
 
     - name: replace ip's for Anderson
       uses: nguyenvanuyn96/str-find-and-replace-action@master
       with:
         find: "10.4."
         replace: "10.7."
-        include: "./campuses/Anderson.companionconfig"
+        include: "Anderson.companionconfig"
 
     - name: replace ip's for Kokomo
       uses: nguyenvanuyn96/str-find-and-replace-action@master
       with:
         find: "10.4."
         replace: "10.8."
-        include: "./campuses/Kokomo.companionconfig"
+        include: "Kokomo.companionconfig"
 
     - name: replace ip's for Flora
       uses: nguyenvanuyn96/str-find-and-replace-action@master
       with:
         find: "10.4."
         replace: "10.9."
-        include: "./campuses/Flora.companionconfig"
+        include: "Flora.companionconfig"
 
 
     - name: Commit Files to Repo
