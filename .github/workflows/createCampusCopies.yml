@@ -18,12 +18,24 @@ jobs:
         find: "10.4."
         replace: "10.1."
         include: "Westfield.companionconfig"
+    - name: Set Campus name to Westfield
+      uses: nguyenvanuyn96/str-find-and-replace-action@master
+      with:
+        find: "Greater Lafayette"
+        replace: "Westfield"
+        include: "Westfield.companionconfig"
 
     - name: replace ip's for Fishers
       uses: nguyenvanuyn96/str-find-and-replace-action@master
       with:
         find: "10.4."
         replace: "10.2."
+        include: "Fishers.companionconfig"
+    - name: Set Campus name to Fishers
+      uses: nguyenvanuyn96/str-find-and-replace-action@master
+      with:
+        find: "Greater Lafayette"
+        replace: "Fishers"
         include: "Fishers.companionconfig"
 
     - name: replace ip's for Binford
@@ -32,12 +44,24 @@ jobs:
         find: "10.4."
         replace: "10.3."
         include: "Binford.companionconfig"
+    - name: Set Campus name to Binford
+      uses: nguyenvanuyn96/str-find-and-replace-action@master
+      with:
+        find: "Greater Lafayette"
+        replace: "Binford"
+        include: "Binford.companionconfig"
 
     - name: replace ip's for Greater Lafayette
       uses: nguyenvanuyn96/str-find-and-replace-action@master
       with:
         find: "10.4."
         replace: "10.4."
+        include: "GreaterLafayette.companionconfig"
+    - name: Set Campus name to Greater Lafayette
+      uses: nguyenvanuyn96/str-find-and-replace-action@master
+      with:
+        find: "Greater Lafayette"
+        replace: "Greater Lafayette"
         include: "GreaterLafayette.companionconfig"
 
     - name: replace ip's for Anderson
@@ -46,6 +70,12 @@ jobs:
         find: "10.4."
         replace: "10.7."
         include: "Anderson.companionconfig"
+    - name: Set Campus name to Anderson
+      uses: nguyenvanuyn96/str-find-and-replace-action@master
+      with:
+        find: "Greater Lafayette"
+        replace: "Anderson"
+        include: "Anderson.companionconfig"
 
     - name: replace ip's for Kokomo
       uses: nguyenvanuyn96/str-find-and-replace-action@master
@@ -53,12 +83,24 @@ jobs:
         find: "10.4."
         replace: "10.8."
         include: "Kokomo.companionconfig"
+    - name: Set Campus name to Kokomo
+      uses: nguyenvanuyn96/str-find-and-replace-action@master
+      with:
+        find: "Greater Lafayette"
+        replace: "Kokomo"
+        include: "Kokomo.companionconfig"
 
     - name: replace ip's for Flora
       uses: nguyenvanuyn96/str-find-and-replace-action@master
       with:
         find: "10.4."
         replace: "10.9."
+        include: "Flora.companionconfig"
+    - name: Set Campus name to Flora
+      uses: nguyenvanuyn96/str-find-and-replace-action@master
+      with:
+        find: "Greater Lafayette"
+        replace: "Flora"
         include: "Flora.companionconfig"
 
 

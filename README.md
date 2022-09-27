@@ -16,7 +16,7 @@ At each commit or pull request it will do the following on a virtual machine:
 
 1. Pull the latest codebase from the git repo
 2. Create copies of `./GreaterLafayette.companionconfig` for each campus in the `./campuses` directory
-3. Find and replace Lafayette IP Addresses with each campuses IP Addresses
+3. Find and replace Lafayette IP Addresses with each campuses IP Addresses & Set Campus Name on the info page
 4. Commit the Changes
 5. Pull and subsequently Push the updates to the repo
 
