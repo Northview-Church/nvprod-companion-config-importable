@@ -9,8 +9,8 @@ jobs:
 
     - name: Make copies of GreaterLafayette.companionconfig 📚
       run: |
-        chmod u+x "${GITHUB_WORKSPACE}/build_files/campus_copies.sh"
-        bash "${GITHUB_WORKSPACE}/build_files/campus_copies.sh"
+        chmod u+x "${GITHUB_WORKSPACE}/build_files/campusCopies.sh"
+        bash "${GITHUB_WORKSPACE}/build_files/campusCopies.sh"
 
     - name: replace ip's for Westfield
       uses: nguyenvanuyn96/str-find-and-replace-action@master
