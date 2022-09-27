@@ -338,7 +338,8 @@
         "color": 16777215,
         "bgcolor": 0,
         "latch": false,
-        "relative_delay": false
+        "relative_delay": false,
+        "show_topbar": "default"
       },
       "3": {
         "style": "png",
@@ -349,7 +350,8 @@
         "color": 16777215,
         "bgcolor": 0,
         "latch": false,
-        "relative_delay": false
+        "relative_delay": false,
+        "show_topbar": "default"
       },
       "4": {
         "style": "png",
@@ -360,7 +362,8 @@
         "color": 16777215,
         "bgcolor": 0,
         "latch": false,
-        "relative_delay": false
+        "relative_delay": false,
+        "show_topbar": "default"
       },
       "5": {},
       "6": {},
@@ -374,7 +377,8 @@
         "color": 16777215,
         "bgcolor": 0,
         "latch": false,
-        "relative_delay": false
+        "relative_delay": false,
+        "show_topbar": "default"
       },
       "9": {
         "style": "png",
@@ -397,7 +401,8 @@
         "color": 16777215,
         "bgcolor": 0,
         "latch": false,
-        "relative_delay": false
+        "relative_delay": false,
+        "show_topbar": "default"
       },
       "11": {
         "style": "png",
@@ -408,7 +413,8 @@
         "color": 16777215,
         "bgcolor": 0,
         "latch": false,
-        "relative_delay": false
+        "relative_delay": false,
+        "show_topbar": "default"
       },
       "12": {
         "style": "png",
@@ -419,7 +425,8 @@
         "color": 16777215,
         "bgcolor": 0,
         "latch": false,
-        "relative_delay": false
+        "relative_delay": false,
+        "show_topbar": "default"
       },
       "13": {},
       "14": {},
@@ -448,7 +455,18 @@
         "relative_delay": false,
         "show_topbar": false
       },
-      "18": {},
+      "18": {
+        "style": "png",
+        "text": "Left\\nShutter\\nOpen",
+        "size": "auto",
+        "alignment": "center:center",
+        "pngalignment": "center:center",
+        "color": 16777215,
+        "bgcolor": 0,
+        "latch": false,
+        "relative_delay": false,
+        "show_topbar": "default"
+      },
       "19": {
         "style": "png",
         "text": "Center\\nShutter\\nOpen",
@@ -458,13 +476,36 @@
         "color": 16777215,
         "bgcolor": 0,
         "latch": false,
-        "relative_delay": false
+        "relative_delay": false,
+        "show_topbar": "default"
       },
-      "20": {},
+      "20": {
+        "style": "png",
+        "text": "Right\\nShutter\\nOpen",
+        "size": "auto",
+        "alignment": "center:center",
+        "pngalignment": "center:center",
+        "color": 16777215,
+        "bgcolor": 0,
+        "latch": false,
+        "relative_delay": false,
+        "show_topbar": "default"
+      },
       "21": {},
       "22": {},
       "23": {},
-      "24": {},
+      "24": {
+        "style": "png",
+        "text": "All Open",
+        "size": "auto",
+        "alignment": "center:center",
+        "pngalignment": "center:center",
+        "color": 16777215,
+        "bgcolor": 0,
+        "latch": false,
+        "relative_delay": false,
+        "show_topbar": "default"
+      },
       "25": {
         "style": "png",
         "text": "",
@@ -477,7 +518,18 @@
         "relative_delay": false,
         "show_topbar": false
       },
-      "26": {},
+      "26": {
+        "style": "png",
+        "text": "Center\\nShutter\\nClosed",
+        "size": "auto",
+        "alignment": "center:center",
+        "pngalignment": "center:center",
+        "color": 16777215,
+        "bgcolor": 0,
+        "latch": false,
+        "relative_delay": false,
+        "show_topbar": "default"
+      },
       "27": {
         "style": "png",
         "text": "Center\\nShutter\\nClosed",
@@ -487,13 +539,36 @@
         "color": 16777215,
         "bgcolor": 0,
         "latch": false,
-        "relative_delay": false
+        "relative_delay": false,
+        "show_topbar": "default"
       },
-      "28": {},
+      "28": {
+        "style": "png",
+        "text": "Right\\nShutter\\nClosed",
+        "size": "auto",
+        "alignment": "center:center",
+        "pngalignment": "center:center",
+        "color": 16777215,
+        "bgcolor": 0,
+        "latch": false,
+        "relative_delay": false,
+        "show_topbar": "default"
+      },
       "29": {},
       "30": {},
       "31": {},
-      "32": {}
+      "32": {
+        "style": "png",
+        "text": "All Closed",
+        "size": "auto",
+        "alignment": "center:center",
+        "pngalignment": "center:center",
+        "color": 16777215,
+        "bgcolor": 0,
+        "latch": false,
+        "relative_delay": false,
+        "show_topbar": "default"
+      }
     },
     "3": {
       "1": {
@@ -901,7 +976,7 @@
       "31": {},
       "32": {
         "style": "png",
-        "text": "Anderson\\nv1.2",
+        "text": "Anderson\\nv1.3",
         "size": "auto",
         "alignment": "center:center",
         "pngalignment": "center:center",
@@ -4200,7 +4275,7 @@
     "l5fQEbAoK": {
       "instance_type": "generic-http",
       "product": "HTTP Requests",
-      "label": "Left Projector",
+      "label": "Left Projector HTTP",
       "enabled": true,
       "_configIdx": 1,
       "rejectUnauthorized": false,
@@ -4210,12 +4285,32 @@
     "yfK4tuoKpd": {
       "instance_type": "generic-http",
       "product": "HTTP Requests",
-      "label": "Right Projector",
+      "label": "Right Projector HTTP",
       "enabled": true,
       "_configIdx": 1,
       "rejectUnauthorized": false,
       "prefix": "10.7.10.22",
       "import_to": "new"
+    },
+    "1vHcWCaFH": {
+      "instance_type": "generic-http",
+      "product": "HTTP Requests",
+      "label": "Center Projector HTTP",
+      "_configIdx": 1,
+      "rejectUnauthorized": false,
+      "prefix": "10.7.10.21"
+    },
+    "2eLG4K_0r": {
+      "instance_type": "barco-hdx",
+      "product": "HDX, HDF Projector",
+      "label": "Left Projector",
+      "host": "10.7.10.20"
+    },
+    "Q4wDzlSn_": {
+      "instance_type": "barco-hdx",
+      "product": "HDX, HDF Projector",
+      "label": "Right Projector",
+      "host": "10.7.10.22"
     }
   },
   "actions": {
@@ -4917,6 +5012,14 @@
       ],
       "2": [
         {
+          "id": "-lVrZvKU5",
+          "label": "2eLG4K_0r:lamp",
+          "instance": "2eLG4K_0r",
+          "action": "lamp",
+          "options": { "lamp": "lamp_on" },
+          "delay": 0
+        },
+        {
           "id": "FOAdRTXO3",
           "label": "l5fQEbAoK:get",
           "instance": "l5fQEbAoK",
@@ -4924,7 +5027,9 @@
           "options": {
             "url": "http://10.7.10.20/tgi/remote.tgi?onky",
             "header": "",
-            "jsonResultDataVariable": ""
+            "jsonResultDataVariable": "",
+            "result_tostring": true,
+            "result_stringify": true
           },
           "delay": 0
         }
@@ -4937,9 +5042,31 @@
           "action": "lamp",
           "options": { "lamp": "lamp_on" },
           "delay": 0
+        },
+        {
+          "id": "VqUhHh5Ft",
+          "label": "1vHcWCaFH:get",
+          "instance": "1vHcWCaFH",
+          "action": "get",
+          "options": {
+            "url": "http://10.7.10.21/tgi/remote.tgi?onky",
+            "header": "",
+            "jsonResultDataVariable": "",
+            "result_tostring": true,
+            "result_stringify": true
+          },
+          "delay": 0
         }
       ],
       "4": [
+        {
+          "id": "dD00NMr_G",
+          "label": "Q4wDzlSn_:lamp",
+          "instance": "Q4wDzlSn_",
+          "action": "lamp",
+          "options": { "lamp": "lamp_on" },
+          "delay": 0
+        },
         {
           "id": "OUYV28YxmN",
           "label": "yfK4tuoKpd:get",
@@ -4948,7 +5075,9 @@
           "options": {
             "url": "http://10.7.10.22/tgi/remote.tgi?onky",
             "header": "",
-            "jsonResultDataVariable": ""
+            "jsonResultDataVariable": "",
+            "result_tostring": true,
+            "result_stringify": true
           },
           "delay": 0
         }
@@ -5002,38 +5131,72 @@
       ],
       "10": [
         {
-          "id": "XmUoJNi1p8",
+          "id": "-YZQBeWzI",
+          "label": "2eLG4K_0r:lamp",
+          "instance": "2eLG4K_0r",
+          "action": "lamp",
+          "options": { "lamp": "lamp_off" },
+          "delay": 0
+        },
+        {
+          "id": "9MzX1Qfcfq",
           "label": "l5fQEbAoK:get",
           "instance": "l5fQEbAoK",
           "action": "get",
           "options": {
             "url": "http://10.7.10.20/tgi/remote.tgi?offky",
             "header": "",
-            "jsonResultDataVariable": ""
+            "jsonResultDataVariable": "",
+            "result_tostring": true,
+            "result_stringify": true
           },
           "delay": 0
         }
       ],
       "11": [
         {
-          "id": "wExvlgMqmg",
+          "id": "R1ikVVQKl",
           "label": "AuJGl4Ir6:lamp",
           "instance": "AuJGl4Ir6",
           "action": "lamp",
           "options": { "lamp": "lamp_off" },
           "delay": 0
+        },
+        {
+          "id": "XFyrBpLbJN",
+          "label": "1vHcWCaFH:get",
+          "instance": "1vHcWCaFH",
+          "action": "get",
+          "options": {
+            "url": "http://10.7.10.21/tgi/remote.tgi?offky",
+            "header": "",
+            "jsonResultDataVariable": "",
+            "result_tostring": true,
+            "result_stringify": true
+          },
+          "delay": 0
         }
       ],
       "12": [
         {
-          "id": "v4oIESe4Cm",
+          "id": "ESgc46tF3",
+          "label": "Q4wDzlSn_:lamp",
+          "instance": "Q4wDzlSn_",
+          "action": "lamp",
+          "options": { "lamp": "lamp_off" },
+          "delay": 0
+        },
+        {
+          "id": "TNcvlY5cyx",
           "label": "yfK4tuoKpd:get",
           "instance": "yfK4tuoKpd",
           "action": "get",
           "options": {
             "url": "http://10.7.10.22/tgi/remote.tgi?offky",
             "header": "",
-            "jsonResultDataVariable": ""
+            "jsonResultDataVariable": "",
+            "result_tostring": true,
+            "result_stringify": true
           },
           "delay": 0
         }
@@ -5043,7 +5206,7 @@
       "15": [],
       "16": [
         {
-          "id": "8FHHcszLxB",
+          "id": "IRD3KqRbk",
           "label": "bitfocus-companion:button_pressrelease",
           "instance": "bitfocus-companion",
           "action": "button_pressrelease",
@@ -5051,7 +5214,7 @@
           "delay": 0
         },
         {
-          "id": "J_d-goBnGV",
+          "id": "e4rBdzoGDq",
           "label": "bitfocus-companion:button_pressrelease",
           "instance": "bitfocus-companion",
           "action": "button_pressrelease",
@@ -5059,7 +5222,7 @@
           "delay": 0
         },
         {
-          "id": "GKb-n7BtdP",
+          "id": "zDet5ET6IP",
           "label": "bitfocus-companion:button_pressrelease",
           "instance": "bitfocus-companion",
           "action": "button_pressrelease",
@@ -5085,7 +5248,16 @@
           "delay": 0
         }
       ],
-      "18": [],
+      "18": [
+        {
+          "id": "5WlxwkBsc",
+          "label": "2eLG4K_0r:shutter",
+          "instance": "2eLG4K_0r",
+          "action": "shutter",
+          "options": { "shutter": "shutter_open" },
+          "delay": 0
+        }
+      ],
       "19": [
         {
           "id": "_1buyciCns",
@@ -5096,11 +5268,45 @@
           "delay": 0
         }
       ],
-      "20": [],
+      "20": [
+        {
+          "id": "-fJAYFZ23",
+          "label": "Q4wDzlSn_:shutter",
+          "instance": "Q4wDzlSn_",
+          "action": "shutter",
+          "options": { "shutter": "shutter_open" },
+          "delay": 0
+        }
+      ],
       "21": [],
       "22": [],
       "23": [],
-      "24": [],
+      "24": [
+        {
+          "id": "7z_HtPbXM",
+          "label": "bitfocus-companion:button_pressrelease",
+          "instance": "bitfocus-companion",
+          "action": "button_pressrelease",
+          "options": { "page": "0", "bank": 18 },
+          "delay": 0
+        },
+        {
+          "id": "_gPbl-PuyL",
+          "label": "bitfocus-companion:button_pressrelease",
+          "instance": "bitfocus-companion",
+          "action": "button_pressrelease",
+          "options": { "page": "0", "bank": 19 },
+          "delay": 0
+        },
+        {
+          "id": "Y9zG5iCQdB",
+          "label": "bitfocus-companion:button_pressrelease",
+          "instance": "bitfocus-companion",
+          "action": "button_pressrelease",
+          "options": { "page": "0", "bank": 20 },
+          "delay": 0
+        }
+      ],
       "25": [
         {
           "id": "DwYnwoeYk",
@@ -5119,7 +5325,16 @@
           "delay": 0
         }
       ],
-      "26": [],
+      "26": [
+        {
+          "id": "sNPcLtTdT",
+          "label": "2eLG4K_0r:shutter",
+          "instance": "2eLG4K_0r",
+          "action": "shutter",
+          "options": { "shutter": "shutter_close" },
+          "delay": 0
+        }
+      ],
       "27": [
         {
           "id": "UbzNE0u7Qh",
@@ -5130,11 +5345,45 @@
           "delay": 0
         }
       ],
-      "28": [],
+      "28": [
+        {
+          "id": "CjsFoID0h",
+          "label": "Q4wDzlSn_:shutter",
+          "instance": "Q4wDzlSn_",
+          "action": "shutter",
+          "options": { "shutter": "shutter_close" },
+          "delay": 0
+        }
+      ],
       "29": [],
       "30": [],
       "31": [],
-      "32": []
+      "32": [
+        {
+          "id": "43xhxUVCs",
+          "label": "bitfocus-companion:button_pressrelease",
+          "instance": "bitfocus-companion",
+          "action": "button_pressrelease",
+          "options": { "page": "0", "bank": 26 },
+          "delay": 0
+        },
+        {
+          "id": "Y3mV-QBO-p",
+          "label": "bitfocus-companion:button_pressrelease",
+          "instance": "bitfocus-companion",
+          "action": "button_pressrelease",
+          "options": { "page": "0", "bank": 27 },
+          "delay": 0
+        },
+        {
+          "id": "QRVTDkc1gn",
+          "label": "bitfocus-companion:button_pressrelease",
+          "instance": "bitfocus-companion",
+          "action": "button_pressrelease",
+          "options": { "page": "0", "bank": 28 },
+          "delay": 0
+        }
+      ]
     },
     "3": {
       "1": [
