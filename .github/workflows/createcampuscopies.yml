@@ -1,0 +1,13 @@
+name: Copy GreaterLafayette.companionconfig as base for other campuses
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  run:
+    runs-on: [ubuntu-latest]
+    steps:
+    - name: Checkout 🛎️
+      uses: actions/checkout@v2
+
+    - name: Make copy of GreaterLafayette.companionconfig 📚
+      run: |
+        chmod u+x "${GITHUB_WORKSPACE}/build_files/campus_copies.sh"
+        bash "${GITHUB_WORKSPACE}/build_files/campus_copies.sh"
