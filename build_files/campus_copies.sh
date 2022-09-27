@@ -1,0 +1,8 @@
+#!/bin/bash
+cp GreaterLafayette.companionconfig campuses/Westfield.companionconfig
+cp GreaterLafayette.companionconfig campuses/Fishers.companionconfig
+cp GreaterLafayette.companionconfig campuses/GreaterLafayette.companionconfig
+cp GreaterLafayette.companionconfig campuses/Binford.companionconfig
+cp GreaterLafayette.companionconfig campuses/Anderson.companionconfig
+cp GreaterLafayette.companionconfig campuses/Kokomo.companionconfig
+cp GreaterLafayette.companionconfig campuses/Flora.companionconfig
