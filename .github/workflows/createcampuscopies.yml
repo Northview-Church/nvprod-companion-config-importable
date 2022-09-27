@@ -13,53 +13,53 @@ jobs:
         bash "${GITHUB_WORKSPACE}/build_files/campus_copies.sh"
 
     - name: replace ip's for Westfield
-        uses: nguyenvanuyn96/str-find-and-replace-action@master
-        with:
-          find: "10.4."
-          replace: "10.1."
-          include: "./campuses/Westfield.companionconfig"
+      uses: nguyenvanuyn96/str-find-and-replace-action@master
+      with:
+        find: "10.4."
+        replace: "10.1."
+        include: "./campuses/Westfield.companionconfig"
 
     - name: replace ip's for Fishers
-        uses: nguyenvanuyn96/str-find-and-replace-action@master
-        with:
-          find: "10.4."
-          replace: "10.2."
-          include: "./campuses/Fishers.companionconfig"
+      uses: nguyenvanuyn96/str-find-and-replace-action@master
+      with:
+        find: "10.4."
+        replace: "10.2."
+        include: "./campuses/Fishers.companionconfig"
 
     - name: replace ip's for Binford
-        uses: nguyenvanuyn96/str-find-and-replace-action@master
-        with:
-          find: "10.4."
-          replace: "10.3."
-          include: "./campuses/Binford.companionconfig"
+      uses: nguyenvanuyn96/str-find-and-replace-action@master
+      with:
+        find: "10.4."
+        replace: "10.3."
+        include: "./campuses/Binford.companionconfig"
 
     - name: replace ip's for Greater Lafayette
-        uses: nguyenvanuyn96/str-find-and-replace-action@master
-        with:
-          find: "10.4."
-          replace: "10.4."
-          include: "./campuses/GreaterLafayette.companionconfig"
+      uses: nguyenvanuyn96/str-find-and-replace-action@master
+      with:
+        find: "10.4."
+        replace: "10.4."
+        include: "./campuses/GreaterLafayette.companionconfig"
 
     - name: replace ip's for Anderson
-        uses: nguyenvanuyn96/str-find-and-replace-action@master
-        with:
-          find: "10.4."
-          replace: "10.7."
-          include: "./campuses/Anderson.companionconfig"
+      uses: nguyenvanuyn96/str-find-and-replace-action@master
+      with:
+        find: "10.4."
+        replace: "10.7."
+        include: "./campuses/Anderson.companionconfig"
 
     - name: replace ip's for Kokomo
-        uses: nguyenvanuyn96/str-find-and-replace-action@master
-        with:
-          find: "10.4."
-          replace: "10.8."
-          include: "./campuses/Kokomo.companionconfig"
+      uses: nguyenvanuyn96/str-find-and-replace-action@master
+      with:
+        find: "10.4."
+        replace: "10.8."
+        include: "./campuses/Kokomo.companionconfig"
 
     - name: replace ip's for Flora
-        uses: nguyenvanuyn96/str-find-and-replace-action@master
-        with:
-          find: "10.4."
-          replace: "10.9."
-          include: "./campuses/Flora.companionconfig"
+      uses: nguyenvanuyn96/str-find-and-replace-action@master
+      with:
+        find: "10.4."
+        replace: "10.9."
+        include: "./campuses/Flora.companionconfig"
 
 
     - name: Commit Files to Repo
